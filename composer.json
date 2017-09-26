@@ -1,0 +1,7 @@
+{
+    "name": "softspring/doctrine-templates",
+    "description": "This library provides doctrine templates",
+    "type": "library",
+    "license": "MIT",
+    "require": {}
+}
