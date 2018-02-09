@@ -9,7 +9,7 @@ trait CreatedAt
     /**
      * @var \DateTime
      *
-     * @ORM\Column(type="datetimetz", nullable=false)
+     * @ORM\Column(type="datetimetz", nullable=true)
      */
     protected $createdAt;
 
