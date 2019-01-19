@@ -10,24 +10,24 @@ use Doctrine\ORM\Mapping as ORM;
 trait Named
 {
     /**
-     * @var string
+     * @var string|null
      *
      * @ORM\Column(name="name", type="string", nullable=false)
      */
     protected $name;
 
     /**
-     * @return string
+     * @return null|string
      */
-    public function getName()
+    public function getName(): ?string
     {
         return $this->name;
     }
 
     /**
-     * @param string $name
+     * @param null|string $name
      */
-    public function setName($name)
+    public function setName(?string $name): void
     {
         $this->name = $name;
     }
