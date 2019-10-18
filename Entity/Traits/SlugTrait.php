@@ -1,6 +1,6 @@
 <?php
 
-namespace Softspring\DoctrineTemplates\Entity;
+namespace Softspring\DoctrineTemplates\Entity\Traits;
 
 use Doctrine\ORM\Mapping as ORM;
 
