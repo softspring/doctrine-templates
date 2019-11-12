@@ -10,6 +10,7 @@ class HAddressType extends AddressType
 {
     public function configureOptions(OptionsResolver $resolver)
     {
+        parent::configureOptions($resolver);
         $resolver->setDefaults([
             'data_class' => HAddressInterface::class,
         ]);
@@ -17,6 +18,6 @@ class HAddressType extends AddressType
 
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-
+        parent::buildForm($builder, $options);
     }
 }
