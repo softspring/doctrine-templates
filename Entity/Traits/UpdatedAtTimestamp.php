@@ -23,6 +23,7 @@ trait UpdatedAtTimestamp
 
     /**
      * @ORM\PrePersist()
+     * @ORM\PreUpdate()
      */
     public function autoSetUpdatedAt()
     {
