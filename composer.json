@@ -3,7 +3,9 @@
     "description": "This library provides doctrine templates",
     "type": "library",
     "license": "MIT",
-    "require": {},
+    "require": {
+        "php": "^7.4"
+    },
     "autoload": {
         "psr-4": {
             "Softspring\\DoctrineTemplates\\": ""
