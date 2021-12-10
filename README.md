@@ -4,6 +4,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/softspring/doctrine-templates/v/unstable.svg)](https://packagist.org/packages/softspring/doctrine-templates)
 [![License](https://poser.pugx.org/softspring/doctrine-templates/license.svg)](https://packagist.org/packages/softspring/doctrine-templates)
 [![Total Downloads](https://poser.pugx.org/softspring/doctrine-templates/downloads)](https://packagist.org/packages/softspring/doctrine-templates)
+[![Build status](https://travis-ci.com/softspring/doctrine-templates.svg?branch=master)](https://travis-ci.com/softspring/doctrine-templates)
 
 # Installation
 
