@@ -12,17 +12,11 @@ trait CurrencyTrait
      */
     protected $currency;
 
-    /**
-     * @return string|null
-     */
     public function getCurrency(): ?string
     {
         return $this->currency;
     }
 
-    /**
-     * @param string|null $currency
-     */
     public function setCurrency(?string $currency): void
     {
         $this->currency = $currency;

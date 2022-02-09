@@ -3,7 +3,7 @@
 namespace Softspring\DoctrineTemplates\Entity\Traits;
 
 /**
- * Trait Timestamps
+ * Trait Timestamps.
  */
 trait Timestamps
 {

@@ -5,7 +5,7 @@ namespace Softspring\DoctrineTemplates\Entity\Traits;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Trait Guid
+ * Trait Guid.
  */
 trait Guid
 {

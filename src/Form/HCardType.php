@@ -24,17 +24,17 @@ class HCardType extends HAddressType
 
         $builder->add('name', TextType::class, [
             'attr' => [
-                'autocomplete' => $autocompleteSection . 'given-name',
+                'autocomplete' => $autocompleteSection.'given-name',
             ],
         ]);
         $builder->add('surname', TextType::class, [
             'attr' => [
-                'autocomplete' => $autocompleteSection . 'family-name',
+                'autocomplete' => $autocompleteSection.'family-name',
             ],
         ]);
         $builder->add('tel', TelType::class, [
             'attr' => [
-                'autocomplete' => $autocompleteSection . 'tel',
+                'autocomplete' => $autocompleteSection.'tel',
             ],
         ]);
 

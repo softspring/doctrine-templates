@@ -13,12 +13,9 @@ trait CreatedAtTimestamp
      */
     protected $createdAt;
 
-    /**
-     * @return \DateTime|null
-     */
     public function getCreatedAt(): ?\DateTime
     {
-        return $this->createdAt ? \DateTime::createFromFormat("U", $this->createdAt) : null;
+        return $this->createdAt ? \DateTime::createFromFormat('U', $this->createdAt) : null;
     }
 
     /**

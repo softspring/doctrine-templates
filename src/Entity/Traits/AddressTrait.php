@@ -5,7 +5,7 @@ namespace Softspring\DoctrineTemplates\Entity\Traits;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Trait AddressTrait
+ * Trait AddressTrait.
  */
 trait AddressTrait
 {
@@ -51,113 +51,71 @@ trait AddressTrait
      */
     protected $countryCode;
 
-    /**
-     * @return string|null
-     */
     public function getPostOfficeBox(): ?string
     {
         return $this->postOfficeBox;
     }
 
-    /**
-     * @param string|null $postOfficeBox
-     */
     public function setPostOfficeBox(?string $postOfficeBox): void
     {
         $this->postOfficeBox = $postOfficeBox;
     }
 
-    /**
-     * @return string|null
-     */
     public function getStreetAddress(): ?string
     {
         return $this->streetAddress;
     }
 
-    /**
-     * @param string|null $streetAddress
-     */
     public function setStreetAddress(?string $streetAddress): void
     {
         $this->streetAddress = $streetAddress;
     }
 
-    /**
-     * @return string|null
-     */
     public function getExtendedAddress(): ?string
     {
         return $this->extendedAddress;
     }
 
-    /**
-     * @param string|null $extendedAddress
-     */
     public function setExtendedAddress(?string $extendedAddress): void
     {
         $this->extendedAddress = $extendedAddress;
     }
 
-    /**
-     * @return string|null
-     */
     public function getLocality(): ?string
     {
         return $this->locality;
     }
 
-    /**
-     * @param string|null $locality
-     */
     public function setLocality(?string $locality): void
     {
         $this->locality = $locality;
     }
 
-    /**
-     * @return string|null
-     */
     public function getRegion(): ?string
     {
         return $this->region;
     }
 
-    /**
-     * @param string|null $region
-     */
     public function setRegion(?string $region): void
     {
         $this->region = $region;
     }
 
-    /**
-     * @return string|null
-     */
     public function getPostalCode(): ?string
     {
         return $this->postalCode;
     }
 
-    /**
-     * @param string|null $postalCode
-     */
     public function setPostalCode(?string $postalCode): void
     {
         $this->postalCode = $postalCode;
     }
 
-    /**
-     * @return string|null
-     */
     public function getCountryCode(): ?string
     {
         return $this->countryCode;
     }
 
-    /**
-     * @param string|null $countryCode
-     */
     public function setCountryCode(?string $countryCode): void
     {
         $this->countryCode = $countryCode;

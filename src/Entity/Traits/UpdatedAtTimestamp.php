@@ -13,12 +13,9 @@ trait UpdatedAtTimestamp
      */
     protected $updatedAt;
 
-    /**
-     * @return \DateTime|null
-     */
     public function getUpdatedAt(): ?\DateTime
     {
-        return $this->updatedAt ? \DateTime::createFromFormat("U", $this->updatedAt) : null;
+        return $this->updatedAt ? \DateTime::createFromFormat('U', $this->updatedAt) : null;
     }
 
     /**

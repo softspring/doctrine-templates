@@ -24,7 +24,7 @@ class AddressType extends AbstractType
         ]);
 
         $resolver->addAllowedTypes('autocomplete_section', ['null', 'string']);
-        $resolver->addAllowedValues('address_lines', [1,2]);
+        $resolver->addAllowedValues('address_lines', [1, 2]);
         $resolver->addAllowedTypes('show_post_office_box', ['bool']);
         $resolver->addAllowedTypes('show_country', ['bool']);
         $resolver->addAllowedTypes('country_choices', ['null', 'array']);
@@ -36,14 +36,14 @@ class AddressType extends AbstractType
 
         $builder->add('streetAddress', TextType::class, [
             'attr' => [
-                'autocomplete' => $autocompleteSection . ($options['address_lines'] == 2 ? 'address-line1' : 'street-address'),
+                'autocomplete' => $autocompleteSection.(2 == $options['address_lines'] ? 'address-line1' : 'street-address'),
             ],
         ]);
 
-        if ($options['address_lines'] == 2) {
+        if (2 == $options['address_lines']) {
             $builder->add('extendedAddress', TextType::class, [
                 'attr' => [
-                    'autocomplete' => $autocompleteSection . 'address-line2',
+                    'autocomplete' => $autocompleteSection.'address-line2',
                 ],
             ]);
         }
@@ -54,26 +54,26 @@ class AddressType extends AbstractType
 
         $builder->add('postalCode', TextType::class, [
             'attr' => [
-                'autocomplete' => $autocompleteSection . 'postal-code',
+                'autocomplete' => $autocompleteSection.'postal-code',
             ],
         ]);
 
         $builder->add('locality', TextType::class, [
             'attr' => [
-                'autocomplete' => $autocompleteSection . 'address-level2',
+                'autocomplete' => $autocompleteSection.'address-level2',
             ],
         ]);
 
         $builder->add('region', TextType::class, [
             'attr' => [
-                'autocomplete' => $autocompleteSection . 'address-level1',
+                'autocomplete' => $autocompleteSection.'address-level1',
             ],
         ]);
 
         if ($options['show_country']) {
             $countryCodeOptions = [
                 'attr' => [
-                    'autocomplete' => $autocompleteSection . 'country',
+                    'autocomplete' => $autocompleteSection.'country',
                 ],
             ];
             if (!empty($options['country_choices'])) {

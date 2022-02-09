@@ -5,7 +5,7 @@ namespace Softspring\DoctrineTemplates\Entity\Traits;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Trait Named
+ * Trait Named.
  */
 trait NamedString
 {
@@ -14,17 +14,11 @@ trait NamedString
      */
     protected ?string $name;
 
-    /**
-     * @return null|string
-     */
     public function getName(): ?string
     {
         return $this->name;
     }
 
-    /**
-     * @param null|string $name
-     */
     public function setName(?string $name): void
     {
         $this->name = $name;

@@ -5,7 +5,7 @@ namespace Softspring\DoctrineTemplates\Entity\Traits;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Trait HCardTrait
+ * Trait HCardTrait.
  */
 trait HCardTrait
 {
@@ -29,49 +29,31 @@ trait HCardTrait
      */
     protected $tel;
 
-    /**
-     * @return string|null
-     */
     public function getName(): ?string
     {
         return $this->name;
     }
 
-    /**
-     * @param string|null $name
-     */
     public function setName(?string $name): void
     {
         $this->name = $name;
     }
 
-    /**
-     * @return string|null
-     */
     public function getSurname(): ?string
     {
         return $this->surname;
     }
 
-    /**
-     * @param string|null $surname
-     */
     public function setSurname(?string $surname): void
     {
         $this->surname = $surname;
     }
 
-    /**
-     * @return string|null
-     */
     public function getTel(): ?string
     {
         return $this->tel;
     }
 
-    /**
-     * @param string|null $tel
-     */
     public function setTel(?string $tel): void
     {
         $this->tel = $tel;
