@@ -7,11 +7,9 @@ use Doctrine\ORM\Mapping as ORM;
 trait CreatedAtTimestamp
 {
     /**
-     * @var int|null
-     *
      * @ORM\Column(type="integer", nullable=true)
      */
-    protected $createdAt;
+    protected ?int $createdAt;
 
     public function getCreatedAt(): ?\DateTime
     {

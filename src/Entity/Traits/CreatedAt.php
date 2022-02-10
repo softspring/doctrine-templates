@@ -7,11 +7,9 @@ use Doctrine\ORM\Mapping as ORM;
 trait CreatedAt
 {
     /**
-     * @var \DateTime
-     *
      * @ORM\Column(type="datetimetz", nullable=true)
      */
-    protected $createdAt;
+    protected \DateTime $createdAt;
 
     /**
      * @return \DateTime

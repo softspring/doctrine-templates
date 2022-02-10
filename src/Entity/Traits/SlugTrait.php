@@ -10,11 +10,9 @@ use Doctrine\ORM\Mapping as ORM;
 trait SlugTrait
 {
     /**
-     * @var string|null
-     *
      * @ORM\Column(name="slug", type="string", nullable=false, length=100)
      */
-    protected $slug;
+    protected ?string $slug;
 
     public function getSlug(): ?string
     {

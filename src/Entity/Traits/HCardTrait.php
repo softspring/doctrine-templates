@@ -12,22 +12,19 @@ trait HCardTrait
     use HAddressTrait;
 
     /**
-     * @var string|null
      * @ORM\Column(name="name", type="string", length=100, nullable=true)
      */
-    protected $name;
+    protected ?string $name;
 
     /**
-     * @var string|null
      * @ORM\Column(name="surname", type="string", length=100, nullable=true)
      */
-    protected $surname;
+    protected ?string $surname;
 
     /**
-     * @var string|null
      * @ORM\Column(name="tel", type="string", length=20, nullable=true)
      */
-    protected $tel;
+    protected ?string $tel;
 
     public function getName(): ?string
     {

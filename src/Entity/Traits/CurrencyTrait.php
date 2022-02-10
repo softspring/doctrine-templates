@@ -7,10 +7,9 @@ use Doctrine\ORM\Mapping as ORM;
 trait CurrencyTrait
 {
     /**
-     * @var string|null
      * @ORM\Column(name="currency", type="string", length=3, nullable=true, options={"fixed":true,"default":"EUR"})
      */
-    protected $currency;
+    protected ?string $currency;
 
     public function getCurrency(): ?string
     {

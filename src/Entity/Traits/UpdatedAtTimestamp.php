@@ -7,11 +7,9 @@ use Doctrine\ORM\Mapping as ORM;
 trait UpdatedAtTimestamp
 {
     /**
-     * @var int|null
-     *
      * @ORM\Column(type="integer", nullable=true)
      */
-    protected $updatedAt;
+    protected ?int $updatedAt;
 
     public function getUpdatedAt(): ?\DateTime
     {

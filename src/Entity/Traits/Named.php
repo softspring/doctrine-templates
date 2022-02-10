@@ -10,11 +10,9 @@ use Doctrine\ORM\Mapping as ORM;
 trait Named
 {
     /**
-     * @var string|null
-     *
      * @ORM\Column(name="name", type="string", nullable=false)
      */
-    protected $name;
+    protected ?string $name;
 
     public function getName(): ?string
     {

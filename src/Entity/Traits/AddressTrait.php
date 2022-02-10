@@ -10,46 +10,39 @@ use Doctrine\ORM\Mapping as ORM;
 trait AddressTrait
 {
     /**
-     * @var string|null
      * @ORM\Column(name="post_office_box", type="string", length=100, nullable=true)
      */
-    protected $postOfficeBox;
+    protected ?string $postOfficeBox;
 
     /**
-     * @var string|null
      * @ORM\Column(name="street_address", type="string", length=100, nullable=true)
      */
-    protected $streetAddress;
+    protected ?string $streetAddress;
 
     /**
-     * @var string|null
      * @ORM\Column(name="extended_address", type="string", length=100, nullable=true)
      */
-    protected $extendedAddress;
+    protected ?string $extendedAddress;
 
     /**
-     * @var string|null
      * @ORM\Column(name="locality", type="string", length=100, nullable=true)
      */
-    protected $locality;
+    protected ?string $locality;
 
     /**
-     * @var string|null
      * @ORM\Column(name="region", type="string", length=100, nullable=true)
      */
-    protected $region;
+    protected ?string $region;
 
     /**
-     * @var string|null
      * @ORM\Column(name="postal_code", type="string", length=10, nullable=true)
      */
-    protected $postalCode;
+    protected ?string $postalCode;
 
     /**
-     * @var string|null
      * @ORM\Column(name="country_code", type="string", length=2, nullable=true)
      */
-    protected $countryCode;
+    protected ?string $countryCode;
 
     public function getPostOfficeBox(): ?string
     {
