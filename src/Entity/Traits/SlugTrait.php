@@ -12,7 +12,7 @@ trait SlugTrait
     /**
      * @ORM\Column(name="slug", type="string", nullable=false, length=100)
      */
-    protected ?string $slug;
+    protected ?string $slug = null;
 
     public function getSlug(): ?string
     {

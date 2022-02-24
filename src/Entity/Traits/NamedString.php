@@ -12,7 +12,7 @@ trait NamedString
     /**
      * @ORM\Column(name="name", type="string", nullable=false)
      */
-    protected ?string $name;
+    protected ?string $name = null;
 
     public function getName(): ?string
     {

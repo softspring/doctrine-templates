@@ -11,7 +11,7 @@ trait UniqIdString
      * @ORM\Column(length=13, options={"fixed": true})
      * @ORM\GeneratedValue(strategy="NONE")
      */
-    protected ?string $id;
+    protected ?string $id = null;
 
     public function getId(): ?string
     {

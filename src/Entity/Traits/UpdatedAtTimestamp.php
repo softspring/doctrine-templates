@@ -9,7 +9,7 @@ trait UpdatedAtTimestamp
     /**
      * @ORM\Column(type="integer", nullable=true)
      */
-    protected ?int $updatedAt;
+    protected ?int $updatedAt = null;
 
     public function getUpdatedAt(): ?\DateTime
     {

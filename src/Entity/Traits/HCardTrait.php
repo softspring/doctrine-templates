@@ -14,17 +14,17 @@ trait HCardTrait
     /**
      * @ORM\Column(name="name", type="string", length=100, nullable=true)
      */
-    protected ?string $name;
+    protected ?string $name = null;
 
     /**
      * @ORM\Column(name="surname", type="string", length=100, nullable=true)
      */
-    protected ?string $surname;
+    protected ?string $surname = null;
 
     /**
      * @ORM\Column(name="tel", type="string", length=20, nullable=true)
      */
-    protected ?string $tel;
+    protected ?string $tel = null;
 
     public function getName(): ?string
     {

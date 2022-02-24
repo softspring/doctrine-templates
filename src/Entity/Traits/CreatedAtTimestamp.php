@@ -9,7 +9,7 @@ trait CreatedAtTimestamp
     /**
      * @ORM\Column(type="integer", nullable=true)
      */
-    protected ?int $createdAt;
+    protected ?int $createdAt = null;
 
     public function getCreatedAt(): ?\DateTime
     {
