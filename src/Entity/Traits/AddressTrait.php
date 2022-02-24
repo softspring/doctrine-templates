@@ -12,37 +12,37 @@ trait AddressTrait
     /**
      * @ORM\Column(name="post_office_box", type="string", length=100, nullable=true)
      */
-    protected ?string $postOfficeBox;
+    protected ?string $postOfficeBox = null;
 
     /**
      * @ORM\Column(name="street_address", type="string", length=100, nullable=true)
      */
-    protected ?string $streetAddress;
+    protected ?string $streetAddress = null;
 
     /**
      * @ORM\Column(name="extended_address", type="string", length=100, nullable=true)
      */
-    protected ?string $extendedAddress;
+    protected ?string $extendedAddress = null;
 
     /**
      * @ORM\Column(name="locality", type="string", length=100, nullable=true)
      */
-    protected ?string $locality;
+    protected ?string $locality = null;
 
     /**
      * @ORM\Column(name="region", type="string", length=100, nullable=true)
      */
-    protected ?string $region;
+    protected ?string $region = null;
 
     /**
      * @ORM\Column(name="postal_code", type="string", length=10, nullable=true)
      */
-    protected ?string $postalCode;
+    protected ?string $postalCode = null;
 
     /**
      * @ORM\Column(name="country_code", type="string", length=2, nullable=true)
      */
-    protected ?string $countryCode;
+    protected ?string $countryCode = null;
 
     public function getPostOfficeBox(): ?string
     {

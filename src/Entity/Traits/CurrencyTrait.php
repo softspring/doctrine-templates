@@ -9,7 +9,7 @@ trait CurrencyTrait
     /**
      * @ORM\Column(name="currency", type="string", length=3, nullable=true, options={"fixed":true,"default":"EUR"})
      */
-    protected ?string $currency;
+    protected ?string $currency = null;
 
     public function getCurrency(): ?string
     {
