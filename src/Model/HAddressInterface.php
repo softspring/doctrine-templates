@@ -1,6 +1,6 @@
 <?php
 
-namespace Softspring\DoctrineTemplates\Model;
+namespace Softspring\Component\DoctrineTemplates\Model;
 
 /**
  * Interface HAddressInterface.

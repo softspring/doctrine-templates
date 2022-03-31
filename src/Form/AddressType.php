@@ -1,8 +1,8 @@
 <?php
 
-namespace Softspring\DoctrineTemplates\Form;
+namespace Softspring\Component\DoctrineTemplates\Form;
 
-use Softspring\DoctrineTemplates\Model\AddressInterface;
+use Softspring\Component\DoctrineTemplates\Model\AddressInterface;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CountryType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;

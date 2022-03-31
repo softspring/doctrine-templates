@@ -1,8 +1,8 @@
 <?php
 
-namespace Softspring\DoctrineTemplates\Form;
+namespace Softspring\Component\DoctrineTemplates\Form;
 
-use Softspring\DoctrineTemplates\Model\HCardInterface;
+use Softspring\Component\DoctrineTemplates\Model\HCardInterface;
 use Symfony\Component\Form\Extension\Core\Type\TelType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;

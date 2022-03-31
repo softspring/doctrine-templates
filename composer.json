@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Softspring\\DoctrineTemplates\\": "src/"
+            "Softspring\\Component\\DoctrineTemplates\\": "src/"
         }
     },
     "extra": {

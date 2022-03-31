@@ -1,10 +1,10 @@
 <?php
 
-namespace Softspring\DoctrineTemplates\Entity\Embeddable;
+namespace Softspring\Component\DoctrineTemplates\Entity\Embeddable;
 
 use Doctrine\ORM\Mapping as ORM;
-use Softspring\DoctrineTemplates\Entity\Traits\HAddressTrait;
-use Softspring\DoctrineTemplates\Model\HAddressInterface;
+use Softspring\Component\DoctrineTemplates\Entity\Traits\HAddressTrait;
+use Softspring\Component\DoctrineTemplates\Model\HAddressInterface;
 
 /**
  * @ORM\Embeddable

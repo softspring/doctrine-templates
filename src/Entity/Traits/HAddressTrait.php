@@ -1,6 +1,6 @@
 <?php
 
-namespace Softspring\DoctrineTemplates\Entity\Traits;
+namespace Softspring\Component\DoctrineTemplates\Entity\Traits;
 
 trait HAddressTrait
 {

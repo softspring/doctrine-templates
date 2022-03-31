@@ -1,8 +1,8 @@
 <?php
 
-namespace Softspring\DoctrineTemplates\Form;
+namespace Softspring\Component\DoctrineTemplates\Form;
 
-use Softspring\DoctrineTemplates\Model\HAddressInterface;
+use Softspring\Component\DoctrineTemplates\Model\HAddressInterface;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
