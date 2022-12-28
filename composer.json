@@ -19,6 +19,7 @@
             "Softspring\\Component\\DoctrineTemplates\\": "src/"
         }
     },
-    "extra": {
+    "config": {
+        "sort-packages": true
     }
 }
