@@ -5,7 +5,7 @@
 [![License](https://poser.pugx.org/softspring/doctrine-templates/license.svg)](https://packagist.org/packages/softspring/doctrine-templates)
 [![PHP Version Require](http://poser.pugx.org/softspring/doctrine-templates/require/php)](https://packagist.org/packages/softspring/doctrine-templates)
 [![Total Downloads](https://poser.pugx.org/softspring/doctrine-templates/downloads)](https://packagist.org/packages/softspring/doctrine-templates)
-[![Build status](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml/badge.svg?branch=5.0)](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml)
+[![Build status](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml/badge.svg?branch=5.1)](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml)
 
 ## Documentation
 

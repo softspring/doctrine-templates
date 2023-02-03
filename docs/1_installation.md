@@ -9,5 +9,5 @@ of the Composer documentation.
 Open a command console, enter your project directory and execute:
 
 ```bash
-$ composer require softspring\doctrine-templates:^5.0
+$ composer require softspring\doctrine-templates:^5.1
 ```
