@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [4.1.0](https://github.com/softspring/doctrine-templates/releases/tag/4.1.0) (07 mar 2022)
+## [v5.0.5](https://github.com/softspring/doctrine-templates/releases/tag/v5.0.5)
 
 ### Upgrading
 
@@ -8,10 +8,31 @@
 
 ### Commits
 
-- a9cf417 Remove dev version in composer.json file
-- 33b6844 Configure new 4.1-dev version to main branch in composer.json file
-- 2062024 Remove dev version in composer.json file
+- [f5e88a8](https://github.com/softspring/doctrine-templates/commit/f5e88a811b798223c3394d74e3851eef9511e29a): Update changelog
 
 ### Changes
 
-*Nothing has changed since last 4.0 branch version*
+```
+ CHANGELOG.md | 22 +++++++++++++---------
+ 1 file changed, 13 insertions(+), 9 deletions(-)
+```
+
+## [v5.0.4](https://github.com/softspring/doctrine-templates/releases/tag/v5.0.4)
+
+*Nothing has changed since last v5.0.3 version*
+
+## [v5.0.3](https://github.com/softspring/doctrine-templates/releases/tag/v5.0.3)
+
+*Nothing has changed since last v5.0.2 version*
+
+## [v5.0.2](https://github.com/softspring/doctrine-templates/releases/tag/v5.0.2)
+
+*Nothing has changed since last v5.0.1 version*
+
+## [v5.0.1](https://github.com/softspring/doctrine-templates/releases/tag/v5.0.1)
+
+*Nothing has changed since last v5.0.0 version*
+
+## [v5.0.0](https://github.com/softspring/doctrine-templates/releases/tag/v5.0.0)
+
+*Previous versions are not in changelog*
