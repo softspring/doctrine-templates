@@ -12,7 +12,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class AddressType extends AbstractType
 {
-    public function configureOptions(OptionsResolver $resolver)
+    public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
             'data_class' => AddressInterface::class,
@@ -30,7 +30,7 @@ class AddressType extends AbstractType
         $resolver->addAllowedTypes('country_choices', ['null', 'array']);
     }
 
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $autocompleteSection = $options['autocomplete_section'] ? $options['autocomplete_section'].' ' : '';
 
