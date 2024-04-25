@@ -11,19 +11,13 @@ trait HCardTrait
 {
     use HAddressTrait;
 
-    /**
-     * @ORM\Column(name="name", type="string", length=100, nullable=true)
-     */
+    #[ORM\Column(name: 'name', type: 'string', length: 100, nullable: true)]
     protected ?string $name = null;
 
-    /**
-     * @ORM\Column(name="surname", type="string", length=100, nullable=true)
-     */
+    #[ORM\Column(name: 'surname', type: 'string', length: 100, nullable: true)]
     protected ?string $surname = null;
 
-    /**
-     * @ORM\Column(name="tel", type="string", length=20, nullable=true)
-     */
+    #[ORM\Column(name: 'tel', type: 'string', length: 20, nullable: true)]
     protected ?string $tel = null;
 
     public function getName(): ?string

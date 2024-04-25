@@ -6,11 +6,9 @@ use Doctrine\ORM\Mapping as ORM;
 
 trait UniqIdString
 {
-    /**
-     * @ORM\Id
-     * @ORM\Column(length=13, options={"fixed": true})
-     * @ORM\GeneratedValue(strategy="NONE")
-     */
+    #[ORM\Id]
+    #[ORM\Column(length: 13, options: ['fixed' => true])]
+    #[ORM\GeneratedValue(strategy: 'NONE')]
     protected ?string $id = null;
 
     public function getId(): ?string
@@ -18,9 +16,7 @@ trait UniqIdString
         return $this->id;
     }
 
-    /**
-     * @ORM\PrePersist()
-     */
+    #[ORM\PrePersist]
     public function _generateId()
     {
         $this->id = uniqid();

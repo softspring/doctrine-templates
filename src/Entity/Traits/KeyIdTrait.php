@@ -11,11 +11,10 @@ trait KeyIdTrait
 {
     /**
      * @var string|null
-     *
-     * @ORM\Column(type="string", nullable=false, length=10)
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="NONE")
      */
+    #[ORM\Column(type: 'string', nullable: false, length: 10)]
+    #[ORM\Id]
+    #[ORM\GeneratedValue(strategy: 'NONE')]
     protected $id;
 
     public function getId(): ?string

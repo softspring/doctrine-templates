@@ -11,11 +11,10 @@ trait Guid
 {
     /**
      * @var string
-     *
-     * @ORM\Column(type="guid")
-     * @ORM\Id
-     * @ORM\GeneratedValue(strategy="UUID")
      */
+    #[ORM\Column(type: 'guid')]
+    #[ORM\Id]
+    #[ORM\GeneratedValue(strategy: 'UUID')]
     protected $id;
 
     /**

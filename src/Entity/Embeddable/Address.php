@@ -6,9 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Softspring\Component\DoctrineTemplates\Entity\Traits\AddressTrait;
 use Softspring\Component\DoctrineTemplates\Model\AddressInterface;
 
-/**
- * @ORM\Embeddable
- */
+#[ORM\Embeddable]
 class Address implements AddressInterface
 {
     use AddressTrait;

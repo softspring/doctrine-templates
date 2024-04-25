@@ -6,9 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Softspring\Component\DoctrineTemplates\Entity\Traits\HAddressTrait;
 use Softspring\Component\DoctrineTemplates\Model\HAddressInterface;
 
-/**
- * @ORM\Embeddable
- */
+#[ORM\Embeddable]
 class HAddress extends Address implements HAddressInterface
 {
     use HAddressTrait;

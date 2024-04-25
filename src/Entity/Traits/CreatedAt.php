@@ -2,28 +2,25 @@
 
 namespace Softspring\Component\DoctrineTemplates\Entity\Traits;
 
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 trait CreatedAt
 {
-    /**
-     * @ORM\Column(type="datetimetz", nullable=true)
-     */
-    protected \DateTime $createdAt;
+    #[ORM\Column(type: 'datetimetz', nullable: true)]
+    protected DateTime $createdAt;
 
     /**
-     * @return \DateTime
+     * @return DateTime
      */
     public function getCreatedAt()
     {
         return $this->createdAt;
     }
 
-    /**
-     * @ORM\PrePersist()
-     */
+    #[ORM\PrePersist]
     public function autoSetCreatedAt()
     {
-        $this->createdAt = new \DateTime('now');
+        $this->createdAt = new DateTime('now');
     }
 }

@@ -9,9 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 trait SlugTrait
 {
-    /**
-     * @ORM\Column(name="slug", type="string", nullable=false, length=100)
-     */
+    #[ORM\Column(name: 'slug', type: 'string', nullable: false, length: 100)]
     protected ?string $slug = null;
 
     public function getSlug(): ?string

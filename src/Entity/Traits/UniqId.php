@@ -8,11 +8,10 @@ trait UniqId
 {
     /**
      * @var string
-     *
-     * @ORM\Id
-     * @ORM\Column(length=13, options={"fixed": true})
-     * @ORM\GeneratedValue(strategy="NONE")
      */
+    #[ORM\Id]
+    #[ORM\Column(length: 13, options: ['fixed' => true])]
+    #[ORM\GeneratedValue(strategy: 'NONE')]
     protected $id;
 
     public function getId()
@@ -20,9 +19,7 @@ trait UniqId
         return $this->id;
     }
 
-    /**
-     * @ORM\PrePersist()
-     */
+    #[ORM\PrePersist]
     public function _generateId()
     {
         $this->id = uniqid();
