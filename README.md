@@ -1,11 +1,11 @@
 # Doctrine templates
 
-[![Latest Stable Version](https://poser.pugx.org/softspring/doctrine-templates/v/stable.svg)](https://packagist.org/packages/softspring/doctrine-templates)
-[![Latest Unstable Version](https://poser.pugx.org/softspring/doctrine-templates/v/unstable.svg)](https://packagist.org/packages/softspring/doctrine-templates)
-[![License](https://poser.pugx.org/softspring/doctrine-templates/license.svg)](https://packagist.org/packages/softspring/doctrine-templates)
-[![PHP Version Require](http://poser.pugx.org/softspring/doctrine-templates/require/php)](https://packagist.org/packages/softspring/doctrine-templates)
-[![Total Downloads](https://poser.pugx.org/softspring/doctrine-templates/downloads)](https://packagist.org/packages/softspring/doctrine-templates)
-[![Build status](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml/badge.svg?branch=5.2)](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml)
+![Latest Stable](https://img.shields.io/packagist/v/softspring/doctrine-templates?label=stable&style=flat-square)
+![Latest Unstable](https://img.shields.io/packagist/v/softspring/doctrine-templates?label=unstable&style=flat-square&include_prereleases)
+![License](https://img.shields.io/packagist/l/softspring/doctrine-templates?style=flat-square)
+![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/doctrine-templates/php?style=flat-square)
+![Downloads](https://img.shields.io/packagist/dt/softspring/doctrine-templates?style=flat-square)
+[![CI](https://img.shields.io/github/actions/workflow/status/softspring/doctrine-templates/php.yml?branch=5.3&style=flat-square&label=CI)](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml)
 
 ## Documentation
 
