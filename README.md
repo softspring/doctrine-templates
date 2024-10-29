@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/packagist/l/softspring/doctrine-templates?style=flat-square)
 ![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/doctrine-templates/php?style=flat-square)
 ![Downloads](https://img.shields.io/packagist/dt/softspring/doctrine-templates?style=flat-square)
-[![CI](https://img.shields.io/github/actions/workflow/status/softspring/doctrine-templates/php.yml?branch=5.3&style=flat-square&label=CI)](https://github.com/softspring/doctrine-templates/actions/workflows/php.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/softspring/doctrine-templates/ci.yml?branch=5.3&style=flat-square&label=CI)](https://github.com/softspring/doctrine-templates/actions/workflows/ci.yml)
 
 ## Documentation
 
