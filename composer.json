@@ -2,7 +2,7 @@
     "name": "softspring/doctrine-templates",
     "description": "This library provides doctrine templates",
     "type": "library",
-    "license": "AGPL-3.0",
+    "license": "AGPL-3.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
