@@ -10,9 +10,9 @@
     },
     "require-dev": {
         "doctrine/orm": "^2.10 || ^3.0",
-        "friendsofphp/php-cs-fixer": "^3.68",
-        "phpstan/phpstan": "^1.10",
-        "rector/rector": "^1.0",
+        "friendsofphp/php-cs-fixer": "^3.89",
+        "phpstan/phpstan": "^2.1",
+        "rector/rector": "^2.2",
         "symfony/form": "^6.4|^7.3",
         "symfony/intl": "^6.4|^7.3"
     },
