@@ -17,7 +17,7 @@ trait UniqIdString
     }
 
     #[ORM\PrePersist]
-    public function _generateId()
+    public function _generateId(): void
     {
         $this->id = uniqid();
     }

@@ -17,7 +17,7 @@ trait UpdatedAtTimestamp
 
     #[ORM\PrePersist]
     #[ORM\PreUpdate]
-    public function autoSetUpdatedAt()
+    public function autoSetUpdatedAt(): void
     {
         $this->updatedAt = time();
     }

@@ -16,7 +16,7 @@ trait CreatedAtTimestamp
     }
 
     #[ORM\PrePersist]
-    public function autoSetCreatedAt()
+    public function autoSetCreatedAt(): void
     {
         $this->createdAt = time();
     }
