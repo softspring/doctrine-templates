@@ -12,7 +12,7 @@ trait UpdatedAtTimestamp
 
     public function getUpdatedAt(): ?DateTime
     {
-        return $this->updatedAt ? DateTime::createFromFormat('U', $this->updatedAt) : null;
+        return $this->updatedAt ? DateTime::createFromFormat('U', (string) $this->updatedAt) : null;
     }
 
     #[ORM\PrePersist]

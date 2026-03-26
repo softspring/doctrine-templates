@@ -12,7 +12,7 @@ trait CreatedAtTimestamp
 
     public function getCreatedAt(): ?DateTime
     {
-        return $this->createdAt ? DateTime::createFromFormat('U', $this->createdAt) : null;
+        return $this->createdAt ? DateTime::createFromFormat('U', (string) $this->createdAt) : null;
     }
 
     #[ORM\PrePersist]
