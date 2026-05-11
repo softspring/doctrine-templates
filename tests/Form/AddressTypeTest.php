@@ -8,6 +8,7 @@ use Softspring\Component\DoctrineTemplates\Form\AddressType;
 use Symfony\Component\Form\Extension\Core\Type\CountryType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Forms;
+use Symfony\Component\Intl\Countries;
 
 class AddressTypeTest extends TestCase
 {
@@ -57,8 +58,8 @@ class AddressTypeTest extends TestCase
         $choices = $form->get('countryCode')->getConfig()->getOption('choices');
 
         self::assertSame([
-            'Spain' => 'ES',
-            'France' => 'FR',
+            Countries::getName('ES', 'en') => 'ES',
+            Countries::getName('FR', 'en') => 'FR',
         ], $choices);
         self::assertNull($form->get('countryCode')->getConfig()->getOption('choice_loader'));
     }
