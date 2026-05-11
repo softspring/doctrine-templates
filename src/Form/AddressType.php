@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Softspring\Component\DoctrineTemplates\Form;
 
 use Softspring\Component\DoctrineTemplates\Model\AddressInterface;
