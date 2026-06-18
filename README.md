@@ -6,7 +6,7 @@
 [![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/doctrine-templates/php?style=flat-square)](https://github.com/softspring/doctrine-templates/blob/6.0/composer.json)
 [![Downloads](https://img.shields.io/packagist/dt/softspring/doctrine-templates?style=flat-square)](https://packagist.org/packages/softspring/doctrine-templates)
 [![CI](https://img.shields.io/github/actions/workflow/status/softspring/doctrine-templates/ci.yml?branch=6.0&style=flat-square&label=CI)](https://github.com/softspring/doctrine-templates/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/softspring/doctrine-templates?branch=6.0&style=flat-square)](https://codecov.io/gh/softspring/doctrine-templates)
+[![Coverage](https://img.shields.io/codecov/c/github/softspring/doctrine-templates?branch=6.0&style=flat-square)](https://app.codecov.io/gh/softspring/doctrine-templates/tree/6.0)
 
 This component provides reusable Doctrine embeddables, entity traits, and matching Symfony form types for recurring model patterns.
 
